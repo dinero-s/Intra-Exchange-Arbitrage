@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@binance/connector": "^3.0.0",
+    "@ngrok/ngrok": "^0.9.0",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "console": "^0.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "ws": "^8.14.2"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.63.0",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
